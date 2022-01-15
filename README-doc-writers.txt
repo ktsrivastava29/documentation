@@ -27,8 +27,30 @@ having to write out/document every single file I propose we use/
 describe plonecli, but after running discuss/document the files 
 created and why they are there. 
 
-Happy doc writing!
 
-Fred van Dijk
-Nov 1st 2021
+Possible setup for first chapters
+---------------------------------
+
+This is only a suggestion/inspiration based on discussions with
+Volto frontender on what they first have to create (task oriented)
+or modify on the backend when they work on Volto sites. These
+could map to chapters
+
+----
+
+* scaffold  plone server setup/buildout with add-on directory
+
+* scaffold a content type
+
+(use plonecli in below example for scaffolding, then explain directory structure/files? ) 
+
+* contenttype: create xml schema or jkcreate the interface  zope.schema for the fields
+
+* Create the  Item/Container python class
+
+* register the content type in the types xml
+
+* generic setup upgrade step
+
+* upgrade step definition in ZCML to register the generic upgrade step
 
