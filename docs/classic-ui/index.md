@@ -50,6 +50,7 @@ This chapter is a developer reference manual for working with Classic UI.
 static-resources
 theming/index
 templates
+templates-global-variables
 views
 viewlets
 forms
